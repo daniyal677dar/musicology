@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Oswald:wght@400;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    color: white !important;
+}
+a{
+    text-decoration: none !important;
+}
+/* universal */
+.headding{
+    font-size: 75px;
+}
+.content{
+    font-size: 29.72px;
+}
+.orange{
+    background-color: #e8631c !important;
+}
+.dark{
+    background-color: #303030 !important;
+}
+.center {
+    text-align: center;
+}
+.pos-hid{
+    position: relative;
+    overflow: hidden;
+}
+.sticky{
+    position: sticky !important;
+}
+/* nav */
+.color{
+    color: white !important;
+    padding-right: 55px !important;
+}
+.links{
+    justify-content: center !important;
+}
+
+/* section1 */
+.section1-bg{
+    background-image:url(musicology-assects/section1-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -100px;
+}
+.section1-headding{
+    padding-top: 267px;
+    font-size: 124.63px;
+}
+.section1-content{
+    width: 56%;
+    margin-top: -32px;
+    font-size: 29.72px;
+    padding-bottom: 42px;
+}
+.btn-1{
+    margin-bottom: 72px;
+    padding: 20px 80px !important;
+}
+/* section2 */
+.section2-bg::before{
+    content: url(musicology-assects/section2-dotted-overlay.png);
+    position: absolute;
+    top: -419px;
+    left: 0px;
+}
+.colimg{
+    position: sticky;
+}
+.section2-headding{
+    margin: 80px 0 30px 0;
+}
+.section2-content{
+    margin-bottom: 66px;
+}
+.bg{
+    overflow: hidden;
+    margin-bottom: 100px;
+    /* width: 90%; */
+}
+.America{
+    font-size: 36.95px;
+}
+.America-content{
+    font-size: 22.17px;
+}
+/* section3 */
+.section3-bg::before{
+    content: url(musicology-assects/section3-dotted-overlay.png);
+    position: absolute;
+    top:-429px;
+}
+.section3-headding{
+    padding:103px 0 55px 0 ;
+}
+.section3-content{
+    margin-bottom: 78px;
+}
+.card-bg{
+   padding-bottom: 27px;
+   border-radius: 5px;
+   margin-bottom: 86px;
+   z-index: 15;
+}
+.card-headding{
+    font-size: 36.95px ;
+}
+.section3-btn{
+    width: 322px;
+    margin: 0 auto;
+    padding: 21px 117px !important;
+    border-radius: 3px;
+    font-size: 25px !important;
+}
+.section3-card-img{
+    margin:64px 0 51px 0 ;
+}
+/* section 4 */
+.section4-bg{
+    position: relative;
+    overflow: hidden;
+}
+.section4-bg::before{
+    content: url(musicology-assects/section3-4-dotted-overlay.png);
+    top: -640px;
+    right: 1px;
+    position: absolute;
+    z-index: 14;
+}
+.overlay-2{
+    position: relative;
+    padding-bottom: 259px;
+}
+.remove{
+    z-index:33;
+}
+.overlay-2::after{
+    content: url(musicology-assects/section4-lower-overlay.png);
+    position: absolute;
+    bottom: -511px;
+    left: 0;
+}
+.overlay{
+    z-index: 21;
+    overflow: hidden !important;
+    position: relative !important;
+    padding-bottom: 226px !important;
+
+}
+.overlay::before{
+    content: url(musicology-assects/section4-right-overlay.png);
+    bottom: -448px;
+    right: 0;
+    z-index: 20;
+    position: absolute;
+
+}
+.section4-left-img{
+    width:718px ;
+    height:952px ;
+    z-index: 16;
+}
+.section4-headding{
+    margin-top: 317px;
+}
+.col-md-6{
+    overflow: hidden;
+}
+.section4-content{
+    padding-bottom: 71px;
+}
+.section4-content-2{
+    justify-content: center;
+    display: grid;
+}
+.section4-btn{
+    padding: 16px 102px !important;
+    width: 322px;
+}
+/* section 5 */
+.section5-headding{
+    padding:203px 0  54px 0;
+}
+.section5-content{
+    padding-bottom: 171px;
+}
+.col-headding{
+    font-size: 66.84px;
+}
+.col-content{
+    font-size: 41.67px ;
+}
+.bottom{
+    padding-bottom: 268px;
+}
+/* section 6 */
+.section6-bg{
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center !important;
+    background: linear-gradient( rgba(54, 23, 6, 0.8), rgba(54, 23, 6, 0.8)), url(musicology-assects/section6-bg.png);
+}
+.section6-headding{
+font-size: 58.33px ;
+padding: 71px 0 342px 0 ;
+margin-bottom: 0rem;
+}
+.section6-details{
+    font-size: 50px ;
+    padding-top: 352px;
+}
+/* section 7 */
+.section7-bg::before{
+    content: url(musicology-assects/section7-left-dotted-overlay.png);
+    position: absolute;
+    top: -355px;
+    left: -46px;
+}
+.section7-bg::after{
+    content: url(musicology-assects/section7-right-dotted-overlay.png);
+    position: absolute;
+    top: -281px;
+    right: 0px;
+    z-index: 14;
+}
+
+.section7-headding{
+    padding-top: 128px;
+}
+.section7-content{
+    /* padding: 60px 0 55px 0; */
+}
+.search-btn{
+    padding: 21px 51px !important;
+    /* width: 222px !important;
+    height: 65px !important; */
+}
+.flex{
+    display: flex;
+}
+.your-email{
+    width: 548px;
+    height: 65px;
+    font-size: 25px;
+    padding-left: 20px;
+    color: #303030 !important;
+}
+.set-of-search{
+    justify-content: center;
+    padding-bottom: 161px;
+    z-index: 15;
+}
+/* footer */
+.footer-headding{
+    font-size: 33.33px ;
+    padding-top: 100px;
+}
+.footer-content{
+    font-size: 25px;
+}
+.justify{
+    text-align: justify;
+}
+.footer-logoes{
+    margin:25px 14px 94px 0;
+}
+.footer-list{
+    list-style: none;
+}
+ol,ul{
+    padding-left: 0rem !important;
+}
+.col2-links{
+    padding-bottom: 10px;
+}
+
+
+/* font weight */
+.regular{
+    font-weight:400 !important;
+}
+.semibold{
+    font-weight:600 !important;
+}
+.bold{
+    font-weight:700 !important;
+}
+
+/* font family */
+.oswald{
+    font-family: 'Oswald', sans-serif;
+    /* color: red !important */
+}
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+    /* color: blue !important */
+}
+.nunito{
+    font-family: 'Nunito', sans-serif;
+    /* color:orange !important; */
+}
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif; */
+/* responsiveness */
+@media(max-width:776px){
+    .section1-headding{
+        font-size: 120.63px;
+    }
+    .section1-content{
+        width: 100%;
+        font-size: 28.72px;
+    }
+    .img{
+        width: 514px;
+    }
+    .content {
+        font-size: 20.72px;
+    }
+    .section6-details {
+        font-size: 28px;
+    }
+    .search-btn{
+    margin-top: 30px;
+    }
+    .set-of-search{
+        display: block;
+        text-align: center;
+    }
+}
